@@ -6,7 +6,7 @@ int main()
 	cout<<"Enter the number : "<<endl;
 	cin>>n;
 	m=n/2;
-	for(i=2;i<m;i++)
+	for(i=2;i<=m;i++)
 	{
 		if(n%i==0)
 		{
